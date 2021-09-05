@@ -1,4 +1,4 @@
-Problem:-
+**Problem:-**
 
 The exercise is based on dependency analysis, a useful process for evaluating the complexity and inter-connectedness of source code. For simplicity, simple tokens are used instead of class names.
 
@@ -19,7 +19,7 @@ D A B C E F G H
 E F H
 F H
 
-Solution:-
+**Solution:-
 
 To solve the problem of transitive dependency i have used graph consisting of nodes that have children or dependencies. With this approach we can prevent adding a child if that can create a circular dependency.
 
@@ -45,3 +45,21 @@ A B
 B A
 
 This scenario can create a cyclic dependency.
+
+**Instructions for running the code:-
+
+1.) Git clone the repository for the transitive dependency.
+
+2.) Build the project using command:-
+
+mvn clean install
+
+3.) Either Open the dependency calculator main class and run it manually or using maven the class run can be run directly using the below command:-
+
+mvn compile exec:java
+
+**Software Requirements:-
+
+1.) JDK 1.8
+2.) Maven Installed
+

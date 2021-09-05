@@ -20,6 +20,7 @@ E F H
 F H
 
 **Solution:-
+**
 
 To solve the problem of transitive dependency i have used graph consisting of nodes that have children or dependencies. With this approach we can prevent adding a child if that can create a circular dependency.
 
@@ -47,6 +48,7 @@ B A
 This scenario can create a cyclic dependency.
 
 **Instructions for running the code:-
+**
 
 1.) Git clone the repository for the transitive dependency.
 
@@ -58,7 +60,7 @@ mvn clean install
 
 mvn compile exec:java
 
-**Software Requirements:-
+**Software Requirements**:-
 
 1.) JDK 1.8
 2.) Maven Installed
